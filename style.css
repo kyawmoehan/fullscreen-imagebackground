@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #87b5f1;
+    line-height: 1.6;
+}
+
+header#showcase {
+    height: 100vh;
+    background: url("https://source.unsplash.com/h8nxGssjQXs/1920x1280") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+header p {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+header a.btn {
+    text-decoration: none;
+    font-size: 18px;
+    color: #87b5f1;
+    border: 1px solid #87b5f1;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header a.btn:hover {
+    background-color: #182329;
+}
